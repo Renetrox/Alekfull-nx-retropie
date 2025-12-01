@@ -8,7 +8,7 @@
 
    <view name="system,basic,detailed,video">
       <helpsystem name="help">
-         <pos>0.94 0.96</pos>
+         <pos>0.41 0.975</pos>      
          <fontSize>0.024</fontSize>
       </helpsystem>
       <text name="logoText">
