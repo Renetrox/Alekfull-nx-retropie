@@ -5,10 +5,15 @@ This is port of the AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc)
 
 ## Changes Made
 
-- Removed all Batocera specific elements to make the theme compatible with RetroPie and ES-DE
-- Updated system image names to match the standard used by RetroPie and ES-DE
-- Added a 16:10 Layout Variant
-- Added navigation sound set for ES-DE
+Removed all Batocera specific elements to make the theme compatible with RetroPie and ES-DE
+
+Updated system image names to match the standard used by RetroPie and ES-DE
+
+Added a 16:10 Layout Variant
+
+Added navigation sound set for ES-DE
+
+Now also tested and confirmed to work with ES-X (experimental fork)
 
 ## **Preview**
 
