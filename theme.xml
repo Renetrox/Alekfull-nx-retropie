@@ -39,7 +39,6 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <fontPath>${mainFont}</fontPath>
          <fontSize>0.0210</fontSize>
          <color>${overlayClockColor}</color>
-         <outlineColor>101010FF</outlineColor>
       </text>
       <image name="network">
          <pos>0.955 0.0125</pos>
