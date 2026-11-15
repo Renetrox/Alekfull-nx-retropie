@@ -29,6 +29,31 @@ license:       Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 
    <include>./color-scheme-${colorScheme}.xml</include>
 
+   <!-- ES-X: reuse Alekfull NX's original bottom-right clock location.
+        Battery was in the top-right; ES-X network/BT use that same visual area.
+        The original Batocera theme did not specify network or Bluetooth positions. -->
+   <view name="screen">
+      <text name="clock">
+         <pos>0.950 0.965</pos>
+         <origin>1 1</origin>
+         <fontPath>${mainFont}</fontPath>
+         <fontSize>0.0210</fontSize>
+         <color>${overlayClockColor}</color>
+         <outlineColor>101010FF</outlineColor>
+      </text>
+      <image name="network">
+         <pos>0.955 0.0125</pos>
+         <origin>1 0</origin>
+         <size>0.028 0.028</size>
+      </image>
+      <image name="bluetooth">
+         <pos>0.917 0.0125</pos>
+         <origin>1 0</origin>
+         <size>0.028 0.028</size>
+      </image>
+   </view>
+
+
    <view name="system,basic,detailed,video">
      
       <image name="art" extra="true">
